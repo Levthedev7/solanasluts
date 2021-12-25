@@ -373,7 +373,7 @@ const Home = (props: HomeProps) => {
             )}
           </MintButton>
               <h2 className="font-semibold text-md my-6">
-              {wallet && <p>{itemsAvailable}/{itemsAvailable} Left</p>}
+              {wallet && <p>{itemsRemaining}/{itemsAvailable} Left</p>}
               </h2>
               <h2 className="font-semibold text-md ">
               {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
